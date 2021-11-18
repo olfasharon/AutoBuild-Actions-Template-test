@@ -6,7 +6,6 @@ Diy_Core() {
 
 	Author=
 	Banner_Title="Powered by AutoBuild-Actions"
-	Default_LAN_IP=192.168.1.1
 
 	Load_Common_Config=false
 	Load_CustomPackages_List=false
@@ -18,7 +17,7 @@ Diy_Core() {
 	INCLUDE_AutoBuild_Features=false
 	INCLUDE_DRM_I915=false
 	INCLUDE_Argon=false
-	INCLUDE_Obsolete_PKG_Compatible=false
+	INCLUDE_Obsolete_PKG_Compatible=true
 }
 
 Firmware-Diy() {
