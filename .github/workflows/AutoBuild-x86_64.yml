@@ -14,6 +14,10 @@ on:
       IP:
         description: '固件 IP 地址 [可选]'
         default: ''
+      ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'false'
 ### END
 
   #push:
@@ -97,6 +101,10 @@ jobs:
         git clone --depth=1 https://github.com/fw876/helloworld.git $GITHUB_WORKSPACE/openwrt/package/helloworld
         git -C $GITHUB_WORKSPACE/openwrt/package/helloworld pull
         cd openwrt
+        mkdir -p package/helloworld
+           for i in "dns2socks" "microsocks" "ipt2socks" "pdnsd-alt" "redsocks2"; do \
+           svn checkout "https://github.com/immortalwrt/packages/trunk/net/$i" "package/helloworld/$i"; \
+           done
         ./scripts/feeds update -a
         ./scripts/feeds install -a > /dev/null 2>&1
 
@@ -111,7 +119,14 @@ jobs:
         Firmware-Diy_Main
         source $GITHUB_WORKSPACE/openwrt/VARIABLE_FILE && Firmware-Diy
         rm -f .config && cp $GITHUB_WORKSPACE/Configs/$CONFIG_FILE .config
-
+    
+    - name: SSH connection to Actions
+      uses: P3TERX/ssh2actions@v1.0.0
+      if: (github.event.inputs.ssh == 'true' && github.event.inputs.ssh  != 'false') || contains(github.event.action, 'ssh')
+      env:
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        
     - name: Compile
       run: |
         export Compile_Result=false
