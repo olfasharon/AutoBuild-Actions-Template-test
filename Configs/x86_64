@@ -5271,17 +5271,17 @@ CONFIG_PACKAGE_ip-full=y
 #
 # SSH
 #
-# CONFIG_PACKAGE_autossh is not set
-# CONFIG_PACKAGE_openssh-client is not set
-# CONFIG_PACKAGE_openssh-client-utils is not set
-# CONFIG_PACKAGE_openssh-keygen is not set
-# CONFIG_PACKAGE_openssh-moduli is not set
-# CONFIG_PACKAGE_openssh-server is not set
-# CONFIG_PACKAGE_openssh-server-pam is not set
-# CONFIG_PACKAGE_openssh-sftp-avahi-service is not set
-# CONFIG_PACKAGE_openssh-sftp-client is not set
-# CONFIG_PACKAGE_openssh-sftp-server is not set
-# CONFIG_PACKAGE_sshtunnel is not set
+CONFIG_PACKAGE_autossh=y
+CONFIG_PACKAGE_openssh-client=y
+CONFIG_PACKAGE_openssh-client-utils=y
+CONFIG_PACKAGE_openssh-keygen=y
+CONFIG_PACKAGE_openssh-moduli=y
+CONFIG_PACKAGE_openssh-server=y
+CONFIG_PACKAGE_openssh-server-pam=y
+CONFIG_PACKAGE_openssh-sftp-avahi-service=y
+CONFIG_PACKAGE_openssh-sftp-client=y
+CONFIG_PACKAGE_openssh-sftp-server=y
+CONFIG_PACKAGE_sshtunnel=y
 # end of SSH
 
 #
@@ -5394,27 +5394,27 @@ CONFIG_PACKAGE_ip-full=y
 #
 # VPN
 #
-# CONFIG_PACKAGE_chaosvpn is not set
-# CONFIG_PACKAGE_fastd is not set
-# CONFIG_PACKAGE_libreswan is not set
-# CONFIG_PACKAGE_n2n-edge is not set
-# CONFIG_PACKAGE_n2n-supernode is not set
-# CONFIG_PACKAGE_ocserv is not set
-# CONFIG_PACKAGE_openconnect is not set
-# CONFIG_PACKAGE_openfortivpn is not set
-# CONFIG_PACKAGE_openvpn-easy-rsa is not set
-# CONFIG_PACKAGE_openvpn-mbedtls is not set
-# CONFIG_PACKAGE_openvpn-nossl is not set
-# CONFIG_PACKAGE_openvpn-openssl is not set
-# CONFIG_PACKAGE_pptpd is not set
-# CONFIG_PACKAGE_softethervpn-base is not set
-# CONFIG_PACKAGE_softethervpn-bridge is not set
-# CONFIG_PACKAGE_softethervpn-client is not set
-# CONFIG_PACKAGE_softethervpn-server is not set
-# CONFIG_PACKAGE_softethervpn5-bridge is not set
-# CONFIG_PACKAGE_softethervpn5-client is not set
-# CONFIG_PACKAGE_softethervpn5-server is not set
-# CONFIG_PACKAGE_sstp-client is not set
+CONFIG_PACKAGE_chaosvpn=y
+CONFIG_PACKAGE_fastd=y
+CONFIG_PACKAGE_libreswan=y
+CONFIG_PACKAGE_n2n-edge=y
+CONFIG_PACKAGE_n2n-supernode=y
+CONFIG_PACKAGE_ocserv=y
+CONFIG_PACKAGE_openconnect=y
+CONFIG_PACKAGE_openfortivpn=y
+CONFIG_PACKAGE_openvpn-easy-rsa=y
+CONFIG_PACKAGE_openvpn-mbedtls=y
+CONFIG_PACKAGE_openvpn-nossl=y
+CONFIG_PACKAGE_openvpn-openssl=y
+CONFIG_PACKAGE_pptpd=y
+CONFIG_PACKAGE_softethervpn-base=y
+CONFIG_PACKAGE_softethervpn-bridge=y
+CONFIG_PACKAGE_softethervpn-client=y
+CONFIG_PACKAGE_softethervpn-server=y
+CONFIG_PACKAGE_softethervpn5-bridge=y
+CONFIG_PACKAGE_softethervpn5-client=y
+CONFIG_PACKAGE_softethervpn5-server=y
+CONFIG_PACKAGE_sstp-client=y
 CONFIG_PACKAGE_strongswan=y
 
 #
@@ -5515,9 +5515,9 @@ CONFIG_PACKAGE_strongswan-mod-xcbc=y
 # CONFIG_PACKAGE_uanytun-nettle is not set
 # CONFIG_PACKAGE_uanytun-nocrypt is not set
 # CONFIG_PACKAGE_uanytun-sslcrypt is not set
-# CONFIG_PACKAGE_vpnc is not set
-# CONFIG_PACKAGE_vpnc-scripts is not set
-# CONFIG_PACKAGE_wireguard is not set
+CONFIG_PACKAGE_vpnc=y
+CONFIG_PACKAGE_vpnc-scripts=y
+CONFIG_PACKAGE_wireguard=y
 # CONFIG_PACKAGE_xl2tpd is not set
 CONFIG_PACKAGE_zerotier=y
 
@@ -5558,13 +5558,13 @@ CONFIG_PACKAGE_zerotier=y
 # CONFIG_PACKAGE_e2guardian is not set
 # CONFIG_PACKAGE_etesync-server is not set
 # CONFIG_PACKAGE_freshclam is not set
-# CONFIG_PACKAGE_frpc is not set
-# CONFIG_PACKAGE_frps is not set
+CONFIG_PACKAGE_frpc=y
+CONFIG_PACKAGE_frps=y
 CONFIG_PACKAGE_haproxy=y
 # CONFIG_PACKAGE_halog is not set
 # CONFIG_PACKAGE_haproxy-nossl is not set
 CONFIG_PACKAGE_kcptun-client=y
-# CONFIG_PACKAGE_kcptun-server is not set
+CONFIG_PACKAGE_kcptun-server=y
 # CONFIG_PACKAGE_lighttpd is not set
 # CONFIG_PACKAGE_nginx is not set
 CONFIG_NGINX_NOPCRE=y
@@ -5584,10 +5584,10 @@ CONFIG_PACKAGE_pdnsd-alt=y
 CONFIG_PACKAGE_shadowsocks-libev-config=y
 CONFIG_PACKAGE_shadowsocks-libev-ss-local=y
 CONFIG_PACKAGE_shadowsocks-libev-ss-redir=y
-# CONFIG_PACKAGE_shadowsocks-libev-ss-rules is not set
-# CONFIG_PACKAGE_shadowsocks-libev-ss-server is not set
-# CONFIG_PACKAGE_shadowsocks-libev-ss-tunnel is not set
-# CONFIG_PACKAGE_shadowsocksr-libev is not set
+CONFIG_PACKAGE_shadowsocks-libev-ss-rules=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-server=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-tunnel=y
+CONFIG_PACKAGE_shadowsocksr-libev=y
 CONFIG_PACKAGE_shadowsocksr-libev-alt=y
 CONFIG_PACKAGE_shadowsocksr-libev-server=y
 CONFIG_PACKAGE_shadowsocksr-libev-ssr-local=y
@@ -5691,7 +5691,7 @@ CONFIG_PACKAGE_wpad=y
 # CONFIG_PACKAGE_beanstalkd is not set
 # CONFIG_PACKAGE_bmon is not set
 # CONFIG_PACKAGE_boinc is not set
-# CONFIG_PACKAGE_brook is not set
+CONFIG_PACKAGE_brook=y
 # CONFIG_PACKAGE_bwm-ng is not set
 # CONFIG_PACKAGE_bwping is not set
 # CONFIG_PACKAGE_chat is not set
@@ -5766,10 +5766,10 @@ CONFIG_PACKAGE_libipset=y
 # CONFIG_PACKAGE_libndp is not set
 # CONFIG_PACKAGE_linknx is not set
 # CONFIG_PACKAGE_lynx is not set
-# CONFIG_PACKAGE_mac-telnet-client is not set
-# CONFIG_PACKAGE_mac-telnet-discover is not set
-# CONFIG_PACKAGE_mac-telnet-ping is not set
-# CONFIG_PACKAGE_mac-telnet-server is not set
+CONFIG_PACKAGE_mac-telnet-client=y
+CONFIG_PACKAGE_mac-telnet-discover=y
+CONFIG_PACKAGE_mac-telnet-ping=y
+CONFIG_PACKAGE_mac-telnet-server=y
 # CONFIG_PACKAGE_map is not set
 # CONFIG_PACKAGE_memcached is not set
 CONFIG_PACKAGE_microsocks=y
@@ -5809,7 +5809,7 @@ CONFIG_PACKAGE_nlbwmon=y
 # CONFIG_PACKAGE_odhcpd is not set
 # CONFIG_PACKAGE_odhcpd-ipv6only is not set
 # CONFIG_PACKAGE_ola is not set
-# CONFIG_PACKAGE_omcproxy is not set
+CONFIG_PACKAGE_omcproxy=y
 # CONFIG_PACKAGE_oor is not set
 # CONFIG_PACKAGE_oping is not set
 # CONFIG_PACKAGE_ostiary is not set
@@ -5848,11 +5848,11 @@ CONFIG_PACKAGE_redsocks2=y
 # CONFIG_PACKAGE_samba36-net is not set
 CONFIG_PACKAGE_samba36-server=y
 CONFIG_PACKAGE_SAMBA_MAX_DEBUG_LEVEL=-1
-# CONFIG_PACKAGE_samba4-admin is not set
-# CONFIG_PACKAGE_samba4-client is not set
-# CONFIG_PACKAGE_samba4-libs is not set
-# CONFIG_PACKAGE_samba4-server is not set
-# CONFIG_PACKAGE_samba4-utils is not set
+CONFIG_PACKAGE_samba4-admin=y
+CONFIG_PACKAGE_samba4-client=y
+CONFIG_PACKAGE_samba4-libs=y
+CONFIG_PACKAGE_samba4-server=y
+CONFIG_PACKAGE_samba4-utils=y
 # CONFIG_PACKAGE_scapy is not set
 # CONFIG_PACKAGE_sctp is not set
 # CONFIG_PACKAGE_sctp-tools is not set
@@ -5885,12 +5885,12 @@ CONFIG_PACKAGE_simple-obfs=y
 # CONFIG_PACKAGE_speedtest-netperf is not set
 # CONFIG_PACKAGE_spoofer is not set
 # CONFIG_PACKAGE_stunnel is not set
-# CONFIG_PACKAGE_switchdev-poller is not set
+CONFIG_PACKAGE_switchdev-poller=y
 # CONFIG_PACKAGE_tac_plus is not set
 # CONFIG_PACKAGE_tac_plus-pam is not set
 # CONFIG_PACKAGE_tayga is not set
-# CONFIG_PACKAGE_tcpdump is not set
-# CONFIG_PACKAGE_tcpdump-mini is not set
+CONFIG_PACKAGE_tcpdump=y
+CONFIG_PACKAGE_tcpdump-mini=y
 CONFIG_PACKAGE_tcping=y
 CONFIG_PACKAGE_tcpping=y
 # CONFIG_PACKAGE_tgt is not set
@@ -5902,32 +5902,32 @@ CONFIG_PACKAGE_tcpping=y
 # CONFIG_PACKAGE_trafficshaper is not set
 # CONFIG_PACKAGE_travelmate is not set
 CONFIG_PACKAGE_trojan=y
-# CONFIG_PACKAGE_trojan-go is not set
+CONFIG_PACKAGE_trojan-go=y
 CONFIG_PACKAGE_trojan-plus=y
 # CONFIG_PACKAGE_u2pnpd is not set
 # CONFIG_PACKAGE_uacme is not set
 CONFIG_PACKAGE_uclient-fetch=y
-# CONFIG_PACKAGE_udptunnel is not set
-# CONFIG_PACKAGE_udpxy is not set
+# CONFIG_PACKAGE_udptunnel=y
+CONFIG_PACKAGE_udpxy=y
 # CONFIG_PACKAGE_ulogd is not set
 # CONFIG_PACKAGE_umdns is not set
 # CONFIG_PACKAGE_usbip is not set
 # CONFIG_PACKAGE_vallumd is not set
 # CONFIG_PACKAGE_verysync is not set
 CONFIG_PACKAGE_vlmcsd=y
-# CONFIG_PACKAGE_vncrepeater is not set
-# CONFIG_PACKAGE_vnstat is not set
-# CONFIG_PACKAGE_vnstat2 is not set
-# CONFIG_PACKAGE_vpn-policy-routing is not set
-# CONFIG_PACKAGE_vpnbypass is not set
+CONFIG_PACKAGE_vncrepeater=y
+CONFIG_PACKAGE_vnstat=y
+CONFIG_PACKAGE_vnstat2=y
+CONFIG_PACKAGE_vpn-policy-routing=y
+CONFIG_PACKAGE_vpnbypass=y
 # CONFIG_PACKAGE_vti is not set
-# CONFIG_PACKAGE_vxlan is not set
+CONFIG_PACKAGE_vxlan=y
 # CONFIG_PACKAGE_wakeonlan is not set
 CONFIG_PACKAGE_wol=y
 # CONFIG_PACKAGE_wpan-tools is not set
-# CONFIG_PACKAGE_wwan is not set
+CONFIG_PACKAGE_wwan=y
 # CONFIG_PACKAGE_xfrm is not set
-# CONFIG_PACKAGE_xinetd is not set
+CONFIG_PACKAGE_xinetd=y
 # end of Network
 
 #
@@ -5994,19 +5994,19 @@ CONFIG_PACKAGE_wol=y
 #
 # Compression
 #
-# CONFIG_PACKAGE_bsdtar is not set
-# CONFIG_PACKAGE_bsdtar-noopenssl is not set
-# CONFIG_PACKAGE_bzip2 is not set
-# CONFIG_PACKAGE_gzip is not set
-# CONFIG_PACKAGE_lz4 is not set
-# CONFIG_PACKAGE_pigz is not set
-# CONFIG_PACKAGE_unrar is not set
+CONFIG_PACKAGE_bsdtar=y
+CONFIG_PACKAGE_bsdtar-noopenssl=y
+CONFIG_PACKAGE_bzip2=y
+CONFIG_PACKAGE_gzip=y
+CONFIG_PACKAGE_lz4=y
+CONFIG_PACKAGE_pigz=y
+CONFIG_PACKAGE_unrar=y
 CONFIG_PACKAGE_unzip=y
-# CONFIG_PACKAGE_xz-utils is not set
-# CONFIG_PACKAGE_zipcmp is not set
-# CONFIG_PACKAGE_zipmerge is not set
-# CONFIG_PACKAGE_ziptool is not set
-# CONFIG_PACKAGE_zstd is not set
+CONFIG_PACKAGE_xz-utils=y
+CONFIG_PACKAGE_zipcmp=y
+CONFIG_PACKAGE_zipmerge=y
+CONFIG_PACKAGE_ziptool=y
+CONFIG_PACKAGE_zstd=y
 # end of Compression
 
 #
@@ -6051,77 +6051,77 @@ CONFIG_PACKAGE_partx-utils=y
 #
 # Editors
 #
-# CONFIG_PACKAGE_joe is not set
-# CONFIG_PACKAGE_jupp is not set
-# CONFIG_PACKAGE_mg is not set
-# CONFIG_PACKAGE_nano is not set
-# CONFIG_PACKAGE_vim is not set
-# CONFIG_PACKAGE_vim-full is not set
-# CONFIG_PACKAGE_vim-fuller is not set
-# CONFIG_PACKAGE_vim-help is not set
-# CONFIG_PACKAGE_vim-runtime is not set
-# CONFIG_PACKAGE_zile is not set
+CONFIG_PACKAGE_joe=y
+CONFIG_PACKAGE_jupp=y
+CONFIG_PACKAGE_mg=y
+CONFIG_PACKAGE_nano=y
+CONFIG_PACKAGE_vim=y
+CONFIG_PACKAGE_vim-full=y
+CONFIG_PACKAGE_vim-fuller=y
+CONFIG_PACKAGE_vim-help=y
+CONFIG_PACKAGE_vim-runtime=y
+CONFIG_PACKAGE_zile=y
 # end of Editors
 
 #
 # Encryption
 #
-# CONFIG_PACKAGE_ccrypt is not set
-# CONFIG_PACKAGE_certtool is not set
-# CONFIG_PACKAGE_cryptsetup is not set
-# CONFIG_PACKAGE_gnupg is not set
-# CONFIG_PACKAGE_gnutls-utils is not set
-# CONFIG_PACKAGE_gpgv is not set
-# CONFIG_PACKAGE_keyctl is not set
-# CONFIG_PACKAGE_px5g-mbedtls is not set
-# CONFIG_PACKAGE_px5g-standalone is not set
-# CONFIG_PACKAGE_stoken is not set
+CONFIG_PACKAGE_ccrypt=y
+CONFIG_PACKAGE_certtool=y
+CONFIG_PACKAGE_cryptsetup=y
+CONFIG_PACKAGE_gnupg=y
+CONFIG_PACKAGE_gnutls-utils=yt
+CONFIG_PACKAGE_gpgv=y
+CONFIG_PACKAGE_keyctl=y
+CONFIG_PACKAGE_px5g-mbedtls=y
+CONFIG_PACKAGE_px5g-standalone=y
+CONFIG_PACKAGE_stoken=y
 # end of Encryption
 
 #
 # Filesystem
 #
-# CONFIG_PACKAGE_acl is not set
+CONFIG_PACKAGE_acl=y
 CONFIG_PACKAGE_antfs-mount=y
-# CONFIG_PACKAGE_attr is not set
-# CONFIG_PACKAGE_badblocks is not set
-# CONFIG_PACKAGE_btrfs-progs is not set
-# CONFIG_PACKAGE_chattr is not set
-# CONFIG_PACKAGE_debugfs is not set
-# CONFIG_PACKAGE_dosfstools is not set
-# CONFIG_PACKAGE_dumpe2fs is not set
-# CONFIG_PACKAGE_e2freefrag is not set
+CONFIG_PACKAGE_attr=y
+CONFIG_PACKAGE_badblocks=y
+CONFIG_PACKAGE_btrfs-progs=y
+CONFIG_PACKAGE_chattr=y
+CONFIG_PACKAGE_debugfs=y
+CONFIG_PACKAGE_dosfstools=y
+CONFIG_PACKAGE_dumpe2fs=y
+CONFIG_PACKAGE_e2freefrag=y
 CONFIG_PACKAGE_e2fsprogs=y
-# CONFIG_PACKAGE_e4crypt is not set
-# CONFIG_PACKAGE_exfat-fsck is not set
-# CONFIG_PACKAGE_exfat-mkfs is not set
-# CONFIG_PACKAGE_f2fs-tools is not set
-# CONFIG_PACKAGE_f2fsck is not set
-# CONFIG_PACKAGE_filefrag is not set
-# CONFIG_PACKAGE_fstrim is not set
-# CONFIG_PACKAGE_fuse-utils is not set
-# CONFIG_PACKAGE_hfsfsck is not set
-# CONFIG_PACKAGE_lsattr is not set
+CONFIG_PACKAGE_e4crypt=y
+CONFIG_PACKAGE_exfat-fsck=y
+CONFIG_PACKAGE_exfat-mkfs=y
+CONFIG_PACKAGE_f2fs-tools=y
+CONFIG_PACKAGE_f2fsck=y
+CONFIG_PACKAGE_filefrag=y
+CONFIG_PACKAGE_fstrim=y
+CONFIG_PACKAGE_fuse-utils=y
+CONFIG_PACKAGE_hfsfsck=y
+CONFIG_PACKAGE_lsattr=y
 CONFIG_PACKAGE_mkf2fs=y
-# CONFIG_PACKAGE_mkhfs is not set
-# CONFIG_PACKAGE_ncdu is not set
-# CONFIG_PACKAGE_nfs-utils is not set
-# CONFIG_PACKAGE_nfs-utils-libs is not set
-# CONFIG_PACKAGE_ntfs-3g is not set
-# CONFIG_PACKAGE_ntfs-3g-low is not set
-# CONFIG_PACKAGE_ntfs-3g-utils is not set
-# CONFIG_PACKAGE_owfs is not set
-# CONFIG_PACKAGE_owshell is not set
-# CONFIG_PACKAGE_resize2fs is not set
-# CONFIG_PACKAGE_squashfs-tools-mksquashfs is not set
-# CONFIG_PACKAGE_squashfs-tools-unsquashfs is not set
-# CONFIG_PACKAGE_swap-utils is not set
+CONFIG_PACKAGE_mkhfs=y
+CONFIG_PACKAGE_ncdu=y
+CONFIG_PACKAGE_nfs-utils=y
+CONFIG_PACKAGE_nfs-utils-libs=y
+CONFIG_PACKAGE_ntfs-3g=y
+CONFIG_PACKAGE_ntfs-3g-low=y
+CONFIG_PACKAGE_ntfs-3g-utils=y
+CONFIG_PACKAGE_owfs=y
+CONFIG_PACKAGE_owshell=y
+CONFIG_PACKAGE_resize2fs=y
+CONFIG_PACKAGE_squashfs-tools-mksquashfs=y
+CONFIG_PACKAGE_squashfs-tools-unsquashfs=y
+CONFIG_PACKAGE_swap-utils=y
 CONFIG_PACKAGE_sysfsutils=y
-# CONFIG_PACKAGE_tune2fs is not set
-# CONFIG_PACKAGE_xfs-admin is not set
-# CONFIG_PACKAGE_xfs-fsck is not set
-# CONFIG_PACKAGE_xfs-growfs is not set
-# CONFIG_PACKAGE_xfs-mkfs is not set
+CONFIG_PACKAGE_tune2fs=y
+CONFIG_PACKAGE_xfs-admin=y
+CONFIG_PACKAGE_xfs-fsck=y
+CONFIG_PACKAGE_xfs-growfs=y
+CONFIG_PACKAGE_xfs-mkfs=y
 # end of Filesystem
 
 #
@@ -6152,12 +6152,12 @@ CONFIG_PACKAGE_sysfsutils=y
 #
 # Shells
 #
-# CONFIG_PACKAGE_bash is not set
-# CONFIG_PACKAGE_fish is not set
-# CONFIG_PACKAGE_klish is not set
-# CONFIG_PACKAGE_mksh is not set
-# CONFIG_PACKAGE_tcsh is not set
-# CONFIG_PACKAGE_zsh is not set
+CONFIG_PACKAGE_bash=y
+CONFIG_PACKAGE_fish=y
+CONFIG_PACKAGE_klish=y
+CONFIG_PACKAGE_mksh=y
+CONFIG_PACKAGE_tcsh=y
+CONFIG_PACKAGE_zsh=y
 # end of Shells
 
 #
@@ -6173,57 +6173,57 @@ CONFIG_PACKAGE_sysfsutils=y
 #
 # Terminal
 #
-# CONFIG_PACKAGE_agetty is not set
-# CONFIG_PACKAGE_dvtm is not set
-# CONFIG_PACKAGE_minicom is not set
-# CONFIG_PACKAGE_picocom is not set
-# CONFIG_PACKAGE_rtty-mbedtls is not set
-# CONFIG_PACKAGE_rtty-nossl is not set
-# CONFIG_PACKAGE_rtty-openssl is not set
+CONFIG_PACKAGE_agetty=y
+CONFIG_PACKAGE_dvtm=y
+CONFIG_PACKAGE_minicom=y
+CONFIG_PACKAGE_picocom=y
+CONFIG_PACKAGE_rtty-mbedtls=y
+CONFIG_PACKAGE_rtty-nossl=y
+CONFIG_PACKAGE_rtty-openssl=y
 # CONFIG_PACKAGE_rtty-wolfssl is not set
-# CONFIG_PACKAGE_screen is not set
-# CONFIG_PACKAGE_script-utils is not set
-# CONFIG_PACKAGE_serialconsole is not set
-# CONFIG_PACKAGE_setterm is not set
-# CONFIG_PACKAGE_tio is not set
-# CONFIG_PACKAGE_tmux is not set
-# CONFIG_PACKAGE_ttyd is not set
-# CONFIG_PACKAGE_wall is not set
+CONFIG_PACKAGE_screen=y
+CONFIG_PACKAGE_script-utils=y
+CONFIG_PACKAGE_serialconsole=y
+CONFIG_PACKAGE_setterm=y
+CONFIG_PACKAGE_tio=y
+CONFIG_PACKAGE_tmux=y
+CONFIG_PACKAGE_ttyd=y
+CONFIG_PACKAGE_wall=y
 # end of Terminal
 
 #
 # Virtualization
 #
-# CONFIG_PACKAGE_qemu-arm-softmmu is not set
-# CONFIG_PACKAGE_qemu-bridge-helper is not set
-# CONFIG_PACKAGE_qemu-firmware-efi is not set
-# CONFIG_PACKAGE_qemu-firmware-pxe is not set
-# CONFIG_PACKAGE_qemu-firmware-seabios is not set
-# CONFIG_PACKAGE_qemu-firmware-seavgabios is not set
-# CONFIG_PACKAGE_qemu-ga is not set
-# CONFIG_PACKAGE_qemu-img is not set
-# CONFIG_PACKAGE_qemu-keymaps is not set
-# CONFIG_PACKAGE_qemu-nbd is not set
-# CONFIG_PACKAGE_qemu-x86_64-softmmu is not set
-# CONFIG_PACKAGE_virtio-console-helper is not set
+CONFIG_PACKAGE_qemu-arm-softmmu=y
+CONFIG_PACKAGE_qemu-bridge-helper=y
+CONFIG_PACKAGE_qemu-firmware-efi=y
+CONFIG_PACKAGE_qemu-firmware-pxe=y
+CONFIG_PACKAGE_qemu-firmware-seabios=y
+CONFIG_PACKAGE_qemu-firmware-seavgabios=y
+CONFIG_PACKAGE_qemu-ga=y
+CONFIG_PACKAGE_qemu-img=y
+CONFIG_PACKAGE_qemu-keymaps=y
+CONFIG_PACKAGE_qemu-nbd=y
+CONFIG_PACKAGE_qemu-x86_64-softmmu=y
+CONFIG_PACKAGE_virtio-console-helper=y
 # end of Virtualization
 
 #
 # Zoneinfo
 #
-# CONFIG_PACKAGE_zoneinfo-africa is not set
-# CONFIG_PACKAGE_zoneinfo-all is not set
-# CONFIG_PACKAGE_zoneinfo-asia is not set
-# CONFIG_PACKAGE_zoneinfo-atlantic is not set
-# CONFIG_PACKAGE_zoneinfo-australia-nz is not set
-# CONFIG_PACKAGE_zoneinfo-core is not set
-# CONFIG_PACKAGE_zoneinfo-europe is not set
-# CONFIG_PACKAGE_zoneinfo-india is not set
-# CONFIG_PACKAGE_zoneinfo-northamerica is not set
-# CONFIG_PACKAGE_zoneinfo-pacific is not set
-# CONFIG_PACKAGE_zoneinfo-poles is not set
-# CONFIG_PACKAGE_zoneinfo-simple is not set
-# CONFIG_PACKAGE_zoneinfo-southamerica is not set
+CONFIG_PACKAGE_zoneinfo-africa=y
+CONFIG_PACKAGE_zoneinfo-all=y
+CONFIG_PACKAGE_zoneinfo-asia=y
+CONFIG_PACKAGE_zoneinfo-atlantic=y
+CONFIG_PACKAGE_zoneinfo-australia-nz=y
+CONFIG_PACKAGE_zoneinfo-core=y
+CONFIG_PACKAGE_zoneinfo-europe=y
+CONFIG_PACKAGE_zoneinfo-india=y
+CONFIG_PACKAGE_zoneinfo-northamerica=y
+CONFIG_PACKAGE_zoneinfo-pacific=y
+CONFIG_PACKAGE_zoneinfo-poles=y
+CONFIG_PACKAGE_zoneinfo-simple=y
+CONFIG_PACKAGE_zoneinfo-southamerica=y
 # end of Zoneinfo
 
 #
@@ -6604,13 +6604,3 @@ CONFIG_STRACE_NONE=y
 # CONFIG_PACKAGE_ykpers is not set
 # end of Utilities
 
-#
-# Xorg
-#
-
-#
-# Font-Utils
-#
-# CONFIG_PACKAGE_fontconfig is not set
-# end of Font-Utils
-# end of Xorg
